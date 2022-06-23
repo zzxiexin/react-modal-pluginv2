@@ -18,7 +18,8 @@ const webpackProdConfig = {
         filename: 'index.js',
         path: resolve('./dist'),
         library: {
-            type: 'commonjs2'
+            type: 'umd',
+            export: 'default'
         }
     },
 
