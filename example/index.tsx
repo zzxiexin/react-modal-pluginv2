@@ -8,8 +8,8 @@ const App = () => {
     return (
         <div className="container">
             <MessageCard
-                title="测试卡片标题"
-                content="测试卡片内容"
+                title="测试卡片标题11"
+                content="测试卡片内容22"
             />
         </div>
     )
