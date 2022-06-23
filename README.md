@@ -1,5 +1,4 @@
 # react ts 插件开发模板
-## 注意该插件是react插件开发的模板演示,如需要源码模板，请移至到https://github.com/zzxiexin/react-ts-npm-template.git
 ```javascript
 {
   "name": "react-ts-npm-template", // 模板名称,npm install的插件名字
