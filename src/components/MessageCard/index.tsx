@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.less';
 
-export interface ICard {
-    title: string;
-    content?: string;
+
+interface ModalProps {
+    afterClose: Function,
+    bodyStyle: Object,
+    cancelBack: Function,
+    sureBack: Function,
 }
 
-const MessageCard: React.FC<ICard> = (props) => {
+const MessageCard: React.FC<ModalProps> = (props) => {
 
-    const { title, content } = props;
-    
+    const { bodyStyle} = props;
     return (
-        <div className="card">
-            <div className="title">{title}</div>
-            <div className="content">{content}</div>
-        </div>
+        <div
+        className="custome_modal_box"
+        style={bodyStyle}
+      >
+      </div>
     )
 } 
 

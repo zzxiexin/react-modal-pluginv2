@@ -1,24 +1,25 @@
 {
-  "name": "react-ts-npm-template",
-  "version": "1.0.5",
+  "name": "react-modal-plugin",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
   "typings": "types/index.d.ts",
   "files": [
     "dist",
     "package.json",
-    "package-lock.json"
+    "package-lock.json",
+    "README.md"
   ],
   "scripts": {
     "prepublishOnly": "npm install && npm run build",
     "build": "webpack --config ./webpack.prod.config.js",
     "start": "webpack serve --config ./webpack.dev.config.js"
   },
-  "repository": "https://github.com/zzxiexin/react-ts-npm-template.git",
+  "repository": "https://github.com/zzxiexin/react-modal-pluginv2",
   "keywords": [
     "react",
-    "component",
-    "template",
+    "plugin",
+    "modal",
     "npm"
   ],
   "dependencies": {

@@ -1,5 +1,5 @@
-import MessageCard from './components/MessageCard';
+import Modal from './components/Modal';
 
 export default {
-    MessageCard
+    Modal
 };
